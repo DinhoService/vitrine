@@ -1,0 +1,98 @@
+header /* style entète constituer de logo et du menu*/
+{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.button, input[type="button"] /* tout les boutton*/
+{
+    color:aliceblue;
+    background-color: blue;
+    border: none;
+    height: 1cm;
+    width: 2cm;
+}
+.titre /*le sous titre services*/
+{
+    text-align: center;
+}
+
+.nav li /*tout les menu*/
+{
+    margin-left:0.5cm ;
+    display: inline;
+}
+.nav li a /* lien du menus*/
+{
+    color: aliceblue;
+    text-decoration: none;
+}
+#acceuil /* page acceuil*/
+{
+    width: 100%;
+    top: 50%;
+    position: absolute;
+    text-align: center;
+}
+#fond_ac /*fond de la page acceuil*/
+{
+    width: 100%;
+    height: 100vh;
+    
+}
+.acceuil_c /*les element de la page d'acceuil*/
+{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+}
+.nom /*nom de l'entreprise*/
+{
+    color: red;
+    font-size: 3em;
+}
+ .acceuil_c p{ /*les paragraphes contenu dans la pages d'acceuil*/
+    color: aliceblue;
+    font-size: 1em;
+}
+
+#propos
+{
+    width: 100%;
+    text-align: center;
+    /* height: 100vh; */
+}
+.a
+{
+    width: 50%;
+}
+#service
+{
+    width: 100%;
+    
+}
+
+.S{
+    width: 30%;
+    border: 0px solid black;
+    box-shadow: 1px 1px 2px gray;
+    display: inline-block;
+    margin-left: 1.05cm;
+    margin-bottom: 0.95cm;
+    text-align: center;
+}
+.s_img
+{
+    width: 100%;
+    height: 8cm;
+}
+#contact
+{
+    background-color: gray;
+     text-align:center ;
+}
+
